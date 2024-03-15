@@ -1,0 +1,72 @@
+#outer{
+    
+    height: 100vh;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+ .box{
+    
+    height: 600px;
+    width: 560px;
+    background-color: rgb(251, 249, 246); 
+ }
+ .com{
+   font-weight: lighter;
+   font-style:italic;
+   opacity: 0.6;
+   
+ } 
+ #first{
+    background-image: url(../Image/pic08.jpg);
+    background-repeat: no-repeat;
+    
+ }
+ #second{
+    background-image: url(../Image/pic09.jpg);
+    background-repeat: no-repeat;
+ }
+h3{
+   font-size: 1.35em;
+   font-weight: 700px;
+}
+.text{
+   position: relative;
+   top: 285px;
+   left: 20px;
+}
+.para{
+   position: relative;
+   top: 300px;
+   left: 20px;
+   width: 530px;
+   line-height: 30px;
+   color: #5d5d5d;
+   
+   margin: 0px 0px 29.3333px;
+   opacity: 0.6;
+   
+}
+button{
+   position: relative;
+   right: 30px;
+   top: 290px;
+   margin: 10px;
+   padding: 12px;
+   width: 200px;
+   border-radius: 8px;
+   font-size: large;
+   font-weight: bolder;
+}
+.bone{
+   background-color:  #d52349;
+   color: #fff;
+}
+.btwo{
+   background-color: black;
+   color: #ffff;
+   background-image: url(../Image/Font\ Awesome.html);
+}
+

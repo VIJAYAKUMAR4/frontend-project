@@ -1,0 +1,26 @@
+/* section>article>p>b{
+    background-color: aquamarine;
+} */
+
+/* 
+section>p{
+    background-color: brown;
+} */
+
+ section>span>p{
+    background-color: rgb(205, 76, 50);
+} 
+
+div~p{
+    background-color: rosybrown;
+} 
+
+
+div p+span>p{
+    background-color: rgb(13, 33, 255);
+} 
+
+section article>p>b
+{
+    background-color: rosybrown;
+}

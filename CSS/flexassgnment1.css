@@ -1,0 +1,76 @@
+#div1{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2023/09/25/20/11/boat-8275962_1280.jpg);
+    background-size: 1510px 740px;
+    background-repeat: no-repeat;
+    
+}
+#div2{
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    /* padding-left: 500px ; */
+    margin-left: 450px;
+    margin-top: 130px;
+    border-radius: 30px;
+    background-color: rgb(247, 239, 239);
+    box-shadow: 1px 1px 10px 5px rosybrown;
+    opacity: 0.7;
+}    
+#head1{
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+#div3{
+    margin-left: 180px;
+    font-size: 18px;
+}
+#div4{
+    margin-top: 50px;
+}
+#div5{
+    display: flex;
+    margin-top: 40px;
+}
+#eye{
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+}
+#div6{
+    text-align: center;
+}
+
+#box1{
+    border-radius: 5px;
+}
+#box2{
+    border-radius: 5px;
+}
+#b1:hover
+{
+    opacity: 0.9;
+    color: lightslategray;
+}
+#b1:hover
+{
+    opacity: 0.9;
+    color: lightslategray;
+}
+#div7{
+    border: 1px solid black;
+    height: 40px;
+    width: 270px;
+    position: relative;
+     top: 20px;
+     text-align: center;
+     border: none;
+}
+#link{
+    text-decoration: none; 
+}
+article{
+    color: darkblue;
+}

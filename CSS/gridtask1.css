@@ -1,0 +1,32 @@
+#background{
+    border: 1px solid black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 150px 150px 150px 150px; 
+
+}
+.item{
+    border: 1px solid black;
+    
+}
+#items1{
+    grid-column: 1/2;
+
+}
+#items5{
+    grid-column: 1/1;
+    
+}
+#items6{
+    grid-column: 4/5;
+    
+}
+#items8{
+    grid-column: 4/5;
+    
+}
+#items7{
+    grid-column: 1/2;
+    
+}

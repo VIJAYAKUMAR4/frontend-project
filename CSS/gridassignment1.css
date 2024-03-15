@@ -1,0 +1,33 @@
+#h1{
+    text-align: center;
+}
+h1::before{
+    
+}
+
+#section{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 550px 550px 550px;
+    gap: 25px;
+    height: 70vh;
+}
+p{
+    font-size: 20px;
+    color: #5d5d5d; 
+}
+button{
+    height: 50px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.cart{
+    border: 2px solid white;
+    padding-left: 50px;
+   
+}

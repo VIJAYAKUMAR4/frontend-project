@@ -1,0 +1,35 @@
+/* P::first-letter{font-size:xx-large;
+color: red;}
+p::first-line{color: blueviolet;} */
+/* p::selection{background-color: aqua;
+color: rgb(225, 7, 18);} */
+/* h1{text-align: center;}
+h1::before{content:"$ $ $ ";
+color: blueviolet;}
+h1::after{content:" $ $ $";
+color: blueviolet;}                           x */
+div{border: 1px solid black;
+}
+h1{
+    text-align: center;
+position: relative;}
+
+h1::before{content: "";
+border: 1px solid gray;
+position: absolute;
+width: 350px;
+left: 200px;
+bottom: 10px;}
+h1{
+    text-align: center;
+position: relative;}
+
+h1::after{content: "";
+border: 1px solid gray;
+position: absolute;
+width: 350px;
+right: 200px;
+bottom: 10px;}
+.icon{color: aqua;}
+u1>li::marker{color: blueviolet;
+font-size: xx-large;}

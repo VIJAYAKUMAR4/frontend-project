@@ -1,0 +1,32 @@
+div{
+border: 25px dashed black
+; height: 90vh;
+}
+
+/*
+background-image:url(../Image/dumbbells-floor-gym-ai-generative_123827-23744.avif);
+background-repeat: no-repeat;
+background-size: 250px 250px;
+background-position: center center;
+background-attachment: fixed; */
+div{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQL_lCrtPIp_nYV--CsiZLXK_DNrs3GwQfWw&usqp=CAU)
+,url(../Image/download.jpg),url(../Image/images.jpg);
+background-clip: content-box;
+background-repeat: no-repeat;
+background-position: top left,center center,bottom right;
+background-size: 300px,400px,300px;
+}
+p{text-align: center;
+line-height: 50px;
+text-indent: 150px;
+color: rgb(226, 43, 198);}
+h1::before{content:"* * * ";
+    color: blueviolet;}
+    h1::after{content:"  * * *";
+    color: blueviolet;
+}
+h1{text-align: center;}
+img{height: 200px;
+    
+    
+}

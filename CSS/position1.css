@@ -1,0 +1,24 @@
+#gp{
+    border: 1px solid black;
+    padding: 20px;
+    height: 200vh;
+    
+}
+#parent{
+    border: 1px solid black;
+    height: 60vh;
+    position: relative;
+}
+#parent > .para{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+#para1{
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+}
+#para2{
+    background-color:black;   
+}

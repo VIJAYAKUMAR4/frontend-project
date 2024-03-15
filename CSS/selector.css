@@ -1,0 +1,14 @@
+/* #para1{
+    background-color: aqua;
+}
+#para2{background-color: blue;}
+#para3{background-color: blueviolet;} */
+/* p{background-color: aqua;} */
+/* *{background-color: blueviolet;
+border: 2px solid rgb(17, 18, 18)
+;}
+.para{background-color: yellow;}
+#para1{background-color: azure;}
+p{background-color: rgb(128, 24, 24);} */
+#para1,span{background-color: blueviolet;}!important
+#para3,#para1,#para2{background-color: aqua;}

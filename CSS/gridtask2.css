@@ -1,0 +1,22 @@
+#background{
+    border: 1px solid black;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+}
+.item{
+    border: 1px solid black;
+   border-radius: 30px;
+   background-image: url(https://cdn.pixabay.com/photo/2023/10/14/04/22/border-collie-8313914_640.jpg);
+   background-size: cover;
+   background-position: center;
+}
+#item6{
+    grid-column:2/4 ;
+    grid-row: 2/4;
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/14/00/53/ai-generated-8313697_640.jpg);
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

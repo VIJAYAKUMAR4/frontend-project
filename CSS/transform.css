@@ -1,0 +1,132 @@
+/* p{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    background-color: aqua;
+    
+}
+p:hover{ */
+    /* transform: translate(250px,300px); */
+    /* transform: rotateZ(360deg); */
+    /* transform: skew(25deg); */
+/* }
+button:hover{
+    transform: scale(2,3);
+} */
+
+#nav{
+    border: 1px solid black;
+    height: 70px;
+    background-color: aquamarine;
+}
+.a{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 25px;
+    border: none;
+
+}
+.a:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px red ;
+}
+#para{
+    border: 1px solid black;
+    height: 100vh;background-color: rgb(225, 251, 130);
+}
+ .p{border: 1px solid black;
+    width:200px;
+    height: 200px;
+    
+     
+    /* display: inline-block;
+    margin: 150px; */
+    transform: skew(30deg);
+}
+#p1{
+    position: absolute;
+    left: 200px;
+bottom: 300px;
+background-color: rgb(243, 59, 59);
+}
+#p2{
+    position: absolute;
+    left: 700px;
+    bottom:300px ;
+    background-color: aqua;
+}
+#p3{
+    position: absolute;
+    left: 600px;
+    bottom: 50px;
+    background-color: skyblue;
+}
+#cart{
+    border: 1px solid black;
+    height: 100vh;
+    background-color: rgb(12, 12, 12);
+}
+.i{
+    border: 1px solid black;
+    height: 650px;
+    width: 500px;
+    display: inline-block;
+    margin:  30px;
+    border-radius: 30px;
+}
+#img1{
+    background-image: url(../Image/iphone-13-finish-select-202207-pink.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;position: relative;
+    left: 140px;  top: 30px;
+    background-color: aqua;
+
+}
+#img2{
+    background-image: url(https://media.karousell.com/media/photos/products/2021/5/16/original_100_fossil_watch_fs47_1621208532_601771ec_progressive.jpg);
+    background-repeat: no-repeat;
+     background-size:499px 280px;
+     position: relative;
+     left: 200px; 
+     top: 30px;
+     background-color: aqua;
+}
+.B{
+    position: absolute;
+    left: 180px;
+    bottom: 50px;
+    border-radius: 8px;
+}
+.A{
+    position: absolute;
+    left: 300px;
+    bottom:50px ;
+    border-radius: 8px;
+    
+}
+.P{
+    position: absolute;
+    bottom: 150px;text-indent: 100px;
+}
+.C{
+    position: absolute;
+    left: 220px;
+    bottom: 300px;
+}
+.i:hover{
+transform: scale(1.1,1.1);
+box-shadow: 5px 10px 30px 30px yellow;
+}
+.A:hover{
+    transform: scale(1.2,1.2);
+    color: blueviolet;
+    background-color: yellow;
+    box-shadow: 1px 1px 6px 6px red;
+}.B:hover{
+    transform: scale(1.2,1.2);
+    color: rgb(52, 10, 237);
+    background-color: yellow;
+    box-shadow: 1px 1px 6px 6px red;
+}

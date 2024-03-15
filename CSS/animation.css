@@ -1,0 +1,215 @@
+/* h1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    animation-name: para;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-direction: alternate;
+}
+@keyframes para { */
+    /* from{
+        background-color:aquamarine;
+    }
+    to{
+        background-color: blueviolet;
+    } */
+   /* 0%{ 
+        background-color: aquamarine;
+         top: 0px;
+         left: 250px;
+    }
+    25%{
+        backgro1qund-color: blue;
+        left:250px;
+        top: 0px;
+    }
+    50%{
+        background-color: yellow;
+        top: 250px;
+        left:250px ;
+    }
+    75%{
+        background-color:orange;
+        left: 0px;
+        top: 250px;
+    }
+    100%{
+        background-color: beige;
+        top: 0px;
+        left: 0px;
+    }
+
+} */
+ p{
+    border: 1px solid black;
+    height: 200px ;
+    width: 200px;
+    background-color: aquamarine;
+}
+p:hover+div > #para1{
+    animation-name: bigfont;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+p:hover+div > #para2{
+    animation-name: bigfont;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes bigfont {
+    from{
+        font-size: 0%;
+    }
+    to{
+        font-size:40px ;
+    }
+} 
+/* #a1{
+    border: 1px solid black;
+    position: absolute;
+    left: 700px;
+    bottom: 300px;
+    width: 100px;
+    
+}
+#a2{
+    border: 1px solid rgb(170, 23, 23);
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    left:700px ; */
+    /* bottom:325px ;background-color: orange;
+     animation-name: music;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+}
+@keyframes music {
+    0%{
+        background-color:rgb(234, 119, 4);
+
+    }
+    20%{
+        background-color:rgb(215, 66, 2);
+    }
+    40%{
+        background-color:rgba(219, 234, 4, 0.871);
+    }
+    60%{
+        background-color:rgba(180, 234, 4, 0.8);
+    }
+    80%{
+        background-color:rgb(234, 119, 4);
+    }
+    100%{
+        background-color:rgba(127, 234, 4, 0.88);
+    }
+    
+    
+}
+#a3{
+    border: 1px solid rgb(170, 23, 23);
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    left:730px ;
+    bottom:325px ;background-color: orange;
+     animation-name: music;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+}
+@keyframes music {
+    0%{
+        background-color:rgb(234, 119, 4);
+        
+    }
+    20%{
+        background-color:rgb(215, 66, 2);
+    }
+    40%{
+        background-color:rgba(219, 234, 4, 0.871);
+    }
+    60%{
+        background-color:rgba(180, 234, 4, 0.8);
+    }
+    80%{
+        background-color:rgb(234, 119, 4);
+    }
+    100%{
+        background-color:rgba(127, 234, 4, 0.88);
+    }
+    
+    
+}
+#a4{
+    border: 1px solid rgb(170, 23, 23);
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    left:760px ;
+    bottom:325px ;background-color: orange;
+     animation-name: music;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+}
+@keyframes music {
+    0%{
+        background-color:rgb(234, 119, 4);
+        
+    }
+    20%{
+        background-color:rgb(215, 66, 2);
+    }
+    40%{
+        background-color:rgba(219, 234, 4, 0.871);
+    }
+    60%{
+        background-color:rgba(180, 234, 4, 0.8);
+    }
+    80%{
+        background-color:rgb(234, 119, 4);
+    }
+    100%{
+        background-color:rgba(127, 234, 4, 0.88);
+    }
+    
+    
+}
+#a5{
+    border: 1px solid rgb(170, 23, 23);
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    left:790px ;
+    bottom:325px ;background-color: orange;
+     animation-name: music;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+     transform: scale();
+}
+@keyframes music {
+    0%{
+        background-color:rgb(234, 119, 4);
+    top: 0px;
+    bottom: 20px;
+        
+    }
+    20%{
+        background-color:rgb(215, 66, 2);
+    }
+    40%{
+        background-color:rgba(219, 234, 4, 0.871);
+    }
+    60%{
+        background-color:rgba(180, 234, 4, 0.8);
+    }
+    80%{
+        background-color:rgb(234, 119, 4);
+    }
+    100%{
+        background-color:rgba(127, 234, 4, 0.88);
+    }
+    
+    
+} */

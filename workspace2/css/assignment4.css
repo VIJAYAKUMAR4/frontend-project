@@ -1,0 +1,17 @@
+#back{border: 1px solid black;
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+background-size:  200vh;
+opacity: 0.5;
+height: 100vh;
+}
+h1{
+    position: absolute;
+    left: 550px;
+    top: 300px;
+}
+p{
+    position: absolute;
+    left: 200px; 
+    top: 350px;}
+                       

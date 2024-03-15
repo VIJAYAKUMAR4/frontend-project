@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navigation_module{
+    border: 1px solid black;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+#flex-module{
+    border: 1px solid black;
+    width:98%;
+    display: flex;
+ align-items: center;
+ 
+ 
+}
+#left_content{
+    color: whitesmoke;
+    width: 70%;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#right_content{
+    
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    
+}
+.content-item1{
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    transition: 0.5s;
+    
+}
+.content-item1:hover{
+    border: 1px solid whitesmoke;
+    background-color: gray;
+    color: black;
+    border-radius: 2px;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+#flexitem{
+    border: 1px solid black;
+    height: 80px;
+
+}
+.content-item2{
+    height:50px;
+width: 150px;
+transition: 0.2s;
+
+}
+.content-item2:hover{
+    font-size:20px;
+    transform: scale(1.1);
+    background-color: gray;
+    color: black;
+}
+
+#home-content{
+    border: 1px solid black;
+    height: 120vh;
+    background-image: url(https://pixabay.com/photos/hamburg-tunnel-old-elbe-tunnel-8290719/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+#contuct-content{
+    border: 1px solid black;
+    height: 130vh;
+    background-image: url(https://pixabay.com/photos/eagle-owl-owl-bird-animal-8274405/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}

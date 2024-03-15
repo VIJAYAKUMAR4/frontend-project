@@ -1,0 +1,104 @@
+#nav{
+    border: 1px solid black;
+    background-color: black;
+    padding: 20px;
+    
+}
+.c{
+    /* border: 1px solid black;
+     */
+  display: inline-block;
+  /* width: 250px; */
+  /* height: 70px;
+  line-height: 70px; */
+  /* text-align: center; */
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 5px 30px;
+  margin: 0 60px;
+}
+#but1{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    border-radius:10px ;
+    /* height: 30px;
+    width:60px; */
+}
+#but2{
+    position: absolute;
+    right:150px ;
+    top: 35px;
+    border-radius: 10px;
+    /* height: 30px;
+    width:60px; */ 
+}
+button:hover+#stickey > #box {
+    animation-name: popup;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+@keyframes popup {
+    from{
+        background-color: brown;
+        top: 100px;
+        bottom: 0px;
+    }
+    to{
+        background-color: blue;
+        bottom: 50px;
+        top: opx;
+    }
+}
+
+
+
+
+#sticky{
+    border: 1px solid black;
+    position: relative;
+    
+}
+#img{/*background-image: url(../img/background\ 2); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    /* opacity:; */
+} 
+.button:hover{
+    background-color: yellow;
+    box-shadow: 0 0 30px yellow;
+    color: black;
+    padding: 8px 20px;
+}
+.c:hover{
+    background-color: rgb(244, 240, 8);
+    box-shadow: 0 0 30px yellow;
+    color: black;
+}
+
+h1{
+    position: absolute;
+     color: yellow;
+     left: 900px;
+     top: 100px;
+}
+p{
+    position: absolute;
+    color: yellow;
+     left: 900px;
+     top: 200px;
+}
+
+#box{
+    border: 1px solid black;
+    height: 300px ;
+    width: 150px;
+    background-color: aqua;
+    position: absolute;
+    left: 200px;
+    display: none;
+}

@@ -1,0 +1,16 @@
+p{
+    border: 1px solid black;
+    height:100px;
+    width: 100px;
+    /* transition: 10s; */
+    /* transition-delay: 5s; */
+    transition-duration: 10s;
+    transition-timing-function: linear;
+
+}
+p:hover{
+    /* height: 350px;
+    width: 500px; */
+    background-color: aqua;
+    transform: rotate(3600deg);
+}

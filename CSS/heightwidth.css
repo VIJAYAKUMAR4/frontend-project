@@ -1,0 +1,45 @@
+body{
+    border: 3px solid black;
+    height: 110vh;
+    background-color:rgb(197, 217, 223);
+
+}
+h1{
+    border: 2px solid black;
+   text-align:center ;
+   height: 60px;
+   margin: 10px;
+}
+#unorderlist{
+    text-align:center;
+    overflow: scroll;
+    text-transform: capitalize;
+    border: 2px solid black;
+    width: 90%;
+    height: 500px;
+    margin: 60px;
+    
+    
+}
+#conditions{
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+
+#submit{
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    
+    
+}
+ul{
+    text-align: left;
+    font-size: x-large;
+
+    
+}

@@ -1,0 +1,67 @@
+#stage1{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+
+}
+.nav{
+    border: 1px solid black;
+    display: inline-block;
+     margin-left: 70px;
+    height: 20px;
+    padding: 10px 50px;
+    color: white;
+}
+#stage2{
+    margin-left: 70px;
+    padding: 10px 20px;
+}
+#stage3{
+    padding: 10px 20px;
+}
+#note{
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#h1{
+    position: absolute;
+    bottom: 350px;
+    left: 550px;
+}
+#p1{
+    position: absolute;
+    bottom: 320px;
+    left: 100px;
+    text-align: center;
+}
+#div3{
+    border: 2px solid rgb(231, 59, 7);
+    background-color: aqua;
+    height: 50vh;
+    width: 40vh;
+    text-align: center;
+    position: absolute;
+    top: 8px;
+    left: 500px;
+    display: none;
+    
+}
+#pop:hover + #div3{
+    display: block;
+    animation-name: falling;
+     animation-duration:3s ; 
+
+}
+@keyframes falling {
+    0%{
+        top: -40px;
+    }
+    100%{
+        top: 10;l,px;
+    }
+}
